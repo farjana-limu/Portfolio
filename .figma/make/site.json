@@ -1,0 +1,10 @@
+{
+  "description": "Explore CSE student Farjana Akter Limu’s projects, academic journey, skills, and learning journal in a creative personal portfolio.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

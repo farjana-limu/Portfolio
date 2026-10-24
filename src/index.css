@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-cream: #fff9f4;
+  --color-linen: #fbf0ec;
+  --color-mint: #e7efe3;
+  --color-mist: #eeeaf8;
+  --color-peach: #fce5da;
+  --color-pink: #f4b8c8;
+  --color-rose: #fbe4ea;
+  --color-plum: #542b45;
+  --color-sage: #a8b8a0;
+  --color-lavender: #d8d0f0;
+  --color-ink: #28252b;
+  --color-muted: #77727a;
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'DM Serif Display', ui-serif, Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background: var(--color-linen);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-plum);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  /* Inner scroll areas (filter rows, overflow panels) get a slim petal scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-pink) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background: linear-gradient(180deg, var(--color-pink), var(--color-lavender)) padding-box;
+  }
+  /* The page itself uses the custom Bloom scrollbar on mouse/trackpad devices */
+  @media (pointer: fine) {
+    html {
+      scrollbar-width: none;
+    }
+    html::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  ::selection {
+    background: var(--color-pink);
+    color: var(--color-ink);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@utility dots {
+  background-image: radial-gradient(color-mix(in oklab, var(--color-plum) 22%, transparent) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+@utility grid-lines {
+  background-image:
+    linear-gradient(color-mix(in oklab, var(--color-plum) 8%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in oklab, var(--color-plum) 8%, transparent) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Campus Bloom "stem" gradient, shared by the scrollbar, dividers and hover states */
+@utility stem-x {
+  background-image: linear-gradient(90deg, var(--color-sage), var(--color-pink) 55%, var(--color-plum));
+}
+@utility stem-y {
+  background-image: linear-gradient(180deg, var(--color-sage), var(--color-pink) 55%, var(--color-plum));
+}
+
+/* Sap flowing along the active contact stem (dash period 14.5 → seamless at -29) */
+@keyframes sap {
+  to {
+    stroke-dashoffset: -29;
+  }
+}

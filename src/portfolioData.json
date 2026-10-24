@@ -1,0 +1,403 @@
+{
+  "site": {
+    "title": "Farjana Akter Limu | Campus Bloom",
+    "brand": "farjana",
+    "brandMark": ".",
+    "description": "A personal portfolio by Mst. Farjana Akter Limu, CSE student at United International University.",
+    "issueLabel": "Campus Bloom · Vol. 01",
+    "theme": {
+      "background": "#FFF9F4",
+      "pink": "#F4B8C8",
+      "rose": "#FBE4EA",
+      "plum": "#542B45",
+      "sage": "#A8B8A0",
+      "lavender": "#D8D0F0",
+      "charcoal": "#28252B",
+      "muted": "#77727A",
+      "linen": "#FBF0EC",
+      "mint": "#E7EFE3",
+      "mist": "#EEEAF8",
+      "peach": "#FCE5DA"
+    },
+    "navigation": [
+      {
+        "label": "Home",
+        "target": "home"
+      },
+      {
+        "label": "About",
+        "target": "about"
+      },
+      {
+        "label": "Academics",
+        "target": "academics"
+      },
+      {
+        "label": "Projects",
+        "target": "projects"
+      },
+      {
+        "label": "Contact",
+        "target": "contact",
+        "highlight": true
+      }
+    ],
+    "menuLabels": {
+      "open": "Open menu",
+      "close": "Close menu",
+      "skipToContent": "Skip to content"
+    }
+  },
+  "personal": {
+    "name": "Mst. Farjana Akter Limu",
+    "displayName": "Farjana",
+    "initials": "FL",
+    "role": "Computer Science Student & Developer",
+    "university": "United International University (UIU)",
+    "email": "mlimu2310535@bscse.uiu.ac.bd",
+    "heroLabel": "Computer Science · UIU · Currently Learning",
+    "heroHeadlineLines": [
+      "Hi, I'm",
+      "Farjana."
+    ],
+    "heroTagline": "Learning to build meaningful things with code.",
+    "heroIntro": "I'm a Computer Science and Engineering student at United International University who enjoys exploring software development, creative problem-solving, and technology.",
+    "heroCaption": "Cover story — a student growing through code, curiosity and craft.",
+    "typingRoles": [
+      "Computer Science Student",
+      "Software Developer",
+      "Lifelong Learner"
+    ],
+    "currentlyExploringLabel": "Currently exploring",
+    "currentlyExploring": [
+      "Software development",
+      "Creative problem-solving"
+    ],
+    "profileImage": "/images/farjana-portrait.jpg",
+    "profileImageAlt": "Portrait of Mst. Farjana Akter Limu",
+    "profilePlaceholderLabel": "Portrait coming soon",
+    "profileImageIsCutout": false,
+    "profileAvatar": "/images/farjana-avatar.jpg",
+    "profileBadgeText": "Farjana Akter Limu · CSE · UIU · Campus Bloom · "
+  },
+  "about": {
+    "eyebrow": "Chapter 01 — About",
+    "titleLines": [
+      "More than a student.",
+      "Always becoming."
+    ],
+    "bio": [
+      "A passionate computer science student dedicated to solving problems through thoughtful code and creative design.",
+      "At United International University, I'm studying Computer Science and Engineering and treating every course, experiment and side project as a chance to understand how good software is made."
+    ],
+    "quote": "Growing one idea at a time.",
+    "profileCardLabel": "Profile",
+    "interestsLabel": "Interests",
+    "interests": [
+      "Software development",
+      "Creative problem-solving",
+      "Technology"
+    ],
+    "valuesLabel": "What I value",
+    "values": [
+      "Thoughtful code",
+      "Creative design"
+    ],
+    "goalsLabel": "Learning goals",
+    "goals": [],
+    "cvLink": "/Farjana_Akter_Limu_CV.pdf",
+    "cvUnavailableLabel": "CV available soon"
+  },
+  "academics": {
+    "eyebrow": "Chapter 02 — Academics",
+    "title": "The Learning Timeline",
+    "subtitle": "Milestones on the path through computer science.",
+    "currentLabel": "Current",
+    "subjectsLabel": "Focus areas",
+    "achievementsLabel": "Highlights",
+    "entries": [
+      {
+        "id": 1,
+        "degree": "B.Sc. in Computer Science and Engineering",
+        "institution": "United International University (UIU)",
+        "year": "2023 – Present",
+        "description": "Focusing on software engineering, algorithms, and web technologies.",
+        "subjects": [
+          "Data Science",
+          "Software Engineering",
+          "Algorithms",
+          "Web Technologies"
+        ],
+        "achievements": [],
+        "current": true
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Chapter 03 — Toolkit",
+    "title": "Things I work with.",
+    "subtitle": "A growing toolkit, organised the way I learn it.",
+    "groups": [
+      {
+        "category": "Frontend Development",
+        "icon": "layout",
+        "items": [
+          "React",
+          "JavaScript",
+          "Tailwind CSS",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "category": "Backend & Database",
+        "icon": "database",
+        "items": [
+          "Node.js",
+          "MySQL"
+        ]
+      },
+      {
+        "category": "Tools & Workflow",
+        "icon": "wrench",
+        "items": [
+          "Git",
+          "GitHub",
+          "Figma",
+          "VS Code"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Chapter 04 — Academic Work",
+    "titleLead": "A digital",
+    "titleAccent": "learning gallery.",
+    "subtitle": "Academic project briefs across core computer science subjects, with suggested timelines and learning goals.",
+    "placeholderLabel": "Sample brief",
+    "noLinksLabel": "Links will be added soon",
+    "githubLabel": "Source code",
+    "liveLabel": "Live demo",
+    "noteCard": {
+      "label": "Study note",
+      "title": "Built around learning.",
+      "text": "These are suggested coursework briefs and timelines. Each can grow into a completed project as the related subjects are studied."
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "Visual Algorithm Explorer",
+        "description": "Suggested data structures and algorithms project: model a campus map as a graph, implement traversal and shortest-path algorithms, and compare their time and space complexity.",
+        "category": "Data Structures & Algorithms",
+        "tech": [
+          "Java",
+          "Graphs",
+          "BFS / DFS",
+          "Dijkstra",
+          "Complexity analysis"
+        ],
+        "image": "",
+        "imageAlt": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": true,
+        "status": "Sep 27, 2025",
+        "placeholder": false
+      },
+      {
+        "id": 2,
+        "title": "Blood Management System",
+          "description": "Suggested object-oriented programming project: design a system for managing blood inventory, donors, and recipients. Implement classes, encapsulation, and inheritance, and create UML diagrams to illustrate the design.",
+          "category": "Object-Oriented Programming",
+        "tech": [
+          "Classes & objects",
+          "Encapsulation",
+          "Inheritance",
+          "UML"
+        ],
+        "image": "",
+        "imageAlt": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": false,
+        "status": "Aug 15, 2025",
+        "placeholder": false
+      },
+      {
+        "id": 3,
+        "title": "Student Project Database",
+        "description": "Suggested database management project: design an ER model for students, projects, and enrollment, normalize the schema, then practice SQL queries, joins, constraints, and transactions.",
+        "category": "Database Management Systems",
+        "tech": [
+          "ER modeling",
+          "Normalization",
+          "SQL",
+          "Transactions"
+        ],
+        "image": "",
+        "imageAlt": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": false,
+        "status": "Jul 10, 2026",
+        "placeholder": false
+      },
+      {
+        "id": 4,
+        "title": "Disease Detection chatbot",
+        "description": "Suggested machine learning study: prepare a suitable dataset, explore relevant features, compare a baseline with classification or regression models, and report evaluation results and limitations.",
+        "category": "Machine Learning",
+        "tech": [
+          "NLP",
+          "Data preparation",
+          "Feature analysis",
+          "Classification",
+          "Model evaluation"
+        ],
+        "image": "",
+        "imageAlt": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": false,
+        "status": "Oct 05, 2025",
+        "placeholder": false
+      },
+      {
+        "id": 5,
+        "title": "System Analysis & Design",
+        "description": "Suggested system analysis and design project: gather requirements for a research project, design the system architecture, and document the design with UML.",
+        "category": "Software Engineering Prototyping",
+        "tech": [
+          "Wireframing",
+          "Responsive design",
+          "HTML & CSS",
+          "Accessibility"
+        ],
+        "image": "",
+        "imageAlt": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": false,
+        "status": "Nov 20, 2024",
+        "placeholder": false
+      },
+      {
+        "id": 6,
+        "title": "Computer Networks Project: University Routing Protocols",
+        "description": "Suggested computer networks project: analyze and implement routing protocols for a university network, focusing on dynamic routing algorithms and network performance optimization.",
+        "category": "Computer Networks",
+        "tech": [
+          "Routing protocols",
+          "Dynamic routing algorithms",
+          "Network performance optimization"
+        ],
+        "image": "",
+        "imageAlt": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": false,
+        "status": "Jan 15, 2025",
+        "placeholder": false
+      },
+      {
+        "id": 7,
+        "title": "Network Protocol Guide",
+        "description": "Suggested computer networks project: illustrate how a browser request travels through DNS, TCP/IP, and HTTP, and explain the role of each protocol with concise diagrams.",
+        "category": "Computer Networks",
+        "tech": [
+          "OSI model",
+          "TCP/IP",
+          "DNS",
+          "HTTP"
+        ],
+        "image": "",
+        "imageAlt": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": false,
+        "status": "Apr 10, 2025",
+        "placeholder": false
+      }
+      ,{
+        "id": 8,
+        "title": "Basic C/C++ Projects",
+        "description": "Suggested C/C++ project: implement basic data structures and algorithms in C/C++, focusing on memory management and performance optimization.",
+        "category": "Programming",
+        "tech": [
+          "C/C++",
+          "Data structures",
+          "Algorithms",
+          "Visualization"
+        ],
+        "image": "",
+        "imageAlt": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": false,
+        "status": "Feb 15, 2023",
+        "placeholder": false
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Chapter 05 — Contact",
+    "heading": "Have an idea in mind?",
+    "subheading": "Let's create something.",
+    "description": "Have a project idea, collaboration opportunity, or interesting topic to discuss? Pick a stem and reach out — I'd love to hear from you.",
+    "hubLabel": "Say hello",
+    "hubPrompt": "Pick a channel",
+    "badgeText": "Say hello · Let's create something together · ",
+    "watermark": "hello.",
+    "pendingLabel": "Link coming soon",
+    "copyLabel": "Copy email address",
+    "copiedLabel": "Email copied",
+    "channels": [
+      {
+        "id": "email",
+        "label": "Email",
+        "handle": "",
+        "url": "",
+        "action": "Write to me",
+        "tone": "plum"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "handle": "",
+        "url": "https://www.linkedin.com/in/farjana-akter-limu-180846426",
+        "action": "Let's connect",
+        "tone": "lavender"
+      },
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "handle": "",
+        "url": "https://www.instagram.com/farjana._.limu",
+        "action": "Follow along",
+        "tone": "pink"
+      },
+      {
+        "id": "facebook",
+        "label": "Facebook",
+        "handle": "",
+        "url": "https://www.facebook.com/farjanaakter.limu.5",
+        "action": "Say hi",
+        "tone": "sage"
+      }
+    ]
+  },
+  "ui": {
+    "buttons": {
+      "exploreWork": "Explore My Work",
+      "connect": "Let's Connect",
+      "downloadCv": "Download CV",
+      "viewProject": "View Project",
+      "backToTop": "Back to top"
+    },
+    "footer": {
+      "message": "Growing one idea at a time.",
+      "copyrightPrefix": "Designed and developed by",
+      "socialLabel": "Find me online"
+    }
+  }
+}
