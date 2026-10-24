@@ -73,11 +73,11 @@
       "Software development",
       "Creative problem-solving"
     ],
-    "profileImage": "/images/farjana-portrait.jpg",
+    "profileImage": "./assets/images/farjana-portrait.jpg",
     "profileImageAlt": "Portrait of Mst. Farjana Akter Limu",
     "profilePlaceholderLabel": "Portrait coming soon",
     "profileImageIsCutout": false,
-    "profileAvatar": "/images/farjana-avatar.jpg",
+    "profileAvatar": "./assets/images/farjana-avatar.jpg",
     "profileBadgeText": "Farjana Akter Limu · CSE · UIU · Campus Bloom · "
   },
   "about": {
@@ -105,7 +105,7 @@
     ],
     "goalsLabel": "Learning goals",
     "goals": [],
-    "cvLink": "/Farjana_Akter_Limu_CV.pdf",
+    "cvLink": "./assets/Farjana_Akter_Limu_CV.pdf",
     "cvUnavailableLabel": "CV available soon"
   },
   "academics": {

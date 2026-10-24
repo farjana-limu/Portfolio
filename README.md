@@ -55,4 +55,4 @@ public/
 
 Edit `src/portfolioData.json` to update the profile, biography, academic timeline, skills, project gallery, contact channels, and theme. Project cards are rendered from the `projects.items` array; each entry can include a category, description, topic tags, image, links, featured state, and status.
 
-Place public assets in `public/` and reference them from the data file using paths such as `/images/example.jpg`.
+Place public assets in `./assets/` and reference them from the data file using paths such as `/images/example.jpg`.
